@@ -1,0 +1,75 @@
+/* General reset for consistent styling across browsers */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+body {
+    background-color: #000;
+    color: white;
+    font-size: 16px;
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+/* Login Container Styling */
+.login-container {
+    background-color: #111;
+    padding: 40px;
+    border-radius: 12px;
+    box-shadow: 0 0 20px rgba(255, 255, 255, 0.05);
+    text-align: center;
+    width: 100%;
+    max-width: 400px;
+}
+
+.login-container h1 {
+    color: white;
+    margin-bottom: 30px;
+    font-size: 24px;
+}
+
+/* Input Fields Styling */
+.login-container input {
+    width: 100%;
+    padding: 12px;
+    margin-bottom: 20px;
+    border: none;
+    border-radius: 6px;
+    background-color: #222;
+    color: #fff;
+    font-size: 16px;
+}
+
+.login-container input::placeholder {
+    color: #aaa;
+}
+
+/* Button Styling */
+.login-container button {
+    width: 100%;
+    padding: 12px;
+    background-color: #3498db;
+    color: white;
+    border: none;
+    border-radius: 6px;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.login-container button:hover {
+    background-color: #2980b9;
+}
+
+/* Error Message Styling */
+.error {
+    color: #e74c3c;
+    margin-top: 10px;
+}
